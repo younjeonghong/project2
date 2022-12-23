@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="css/ace.css">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script>
+<script src="js/ismobile.js"></script>
+<script src="js/ace.js"></script>
+<title>에이스</title>
+</head>
+<body>
+<div class="wrap">
+    <div id="index">
+        <header id="header">
+            <div class="logo"><h1><a href=""><img src="images/logo2.png" alt="에이스침대"></a></h1></div>
+
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="">침대</a>
+                        <ul>
+                            <li><a href="">프레임</a></li>
+                            <li><a href="">매트리스</a></li>
+                            <li><a href="">신제품</a></li>
+                            <li><a href="">베스트상품</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">가구</a>
+                        <ul>
+                            <li><a href="">룸세트</a></li>
+                            <li><a href="">리빙가구</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">스트레스리스</a>
+                        <ul>
+                            <li><a href="">1인용 리클라이너</a></li>
+                            <li><a href="">오피스체어</a></li>
+                            <li><a href="">소파</a></li>
+                            <li><a href="">테이블&악세서리</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">슬립케어</a>
+                        <ul>
+                            <li><a href="">마이크로케어</a></li>
+                            <li><a href="">스마트슬리브</a></li>
+                            <li><a href="">쿨링패드</a></li>
+                            <li><a href="">마이크로가드 eco</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">에이스 스토리</a>
+                        <ul>
+                            <li><a href="">침대과학</a></li>
+                            <li><a href="">에이스 뉴스</a></li>
+                            <li><a href="">고객체험</a></li>
+                            <li><a href="">이벤트</a></li>
+                            <li><a href="">매장안내</a></li>
+                            <li><a href="">마이페이지</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="utils">
+				<a href="" class="search">검색</a>
+				<a href="" class="cart">장바구니</a>
+				<a href="" class="my">마이페이지</a>
+				<a href="" class="tab">
+					<i>탭메뉴</i>
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			</div><!--utils-->
+        </header>
+
+        <div class="mainslider">
+            <div class="swiper-container mainSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="text_box">
+                            <span>BED IS SCIENCE, BED IS LIFE</span>
+                            <p>침실은 휴식하는 공간의 대명사,<br>침대는 과학이자 삶입니다.</p>
+                            <a href="" class="btn_more">VIEW MORE</a>
+                        </div>
+                        <video id="video1" src="video/main_video1.mp4"></video>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text_box">
+                            <span>에이스 인테리어 스토리 vol.17</span>
+                            <p>구축 아파트의 대변신!<br>차분한 감성의 미니멀 인테리어</p>
+                            <a href="" class="btn_more">VIEW MORE</a>
+                        </div>
+                        <video id="video2" src="video/main_video2.mp4"></video>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text_box">
+                            <span>SPECIAL SOFA, ACE</span>
+                            <p>풍성하고 유연한 쿠션과 스트레스리스 특허기술로<br>여러분을 쾌적한 휴식 공간으로 초대합니다.</p>
+                            <a href="" class="btn_more">VIEW MORE</a>
+                        </div>
+                        <video id="video3" src="video/main_video3.mp4"></video>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div><!--mainslider-->
+
+        <div class="edge_slider">
+            <div class="swiper edgeSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <span class="button">웨딩 에이스</span>
+                            <span class="title">웨딩멤버스 회원을 위한 혜택</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <span class="button">구매혜택</span>
+                            <span class="title">에이스 X LG전자 제휴 이벤트</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <span class="button">리뷰이벤트</span>
+                            <span class="title">2022 스트레스리스 구매 후기</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="controller">
+                    <p><span id="bar"></span></p>
+                    <a href="" id="pause_play" class="pause">pause</a>
+                </div>
+            </div>
+        </div>
+    </div><!--index-->
+    <div class="dim"></div>
+
+<!--두번째 페이지-->
+<section id="page1">
+    <h2>page1</h2><!--hide-->
+
+    <ul>
+        <li><!--cursor:pointer-->
+            <div class="title">
+                <span class="tit1">프레임</span>
+                <span class="tit2">유니크한 헤드보드 디자인, 레네</span>
+            </div>
+
+            <div class="info">코랄 블루, 딤그레이 원단과 고급스러운 월넛 우드톤의 조화</div>
+
+            <div class="hover">
+                <div class="btns"><!--flex-->
+                    <a href="" class="plus">제품보러가기</a>
+                    <a href="" class="heart">관심상품등록</a>
+                </div><!--btns-->
+            </div><!--hover-->
+            <!--가상요소로 라인 넣기-->
+        </li>
+
+        <li><!--cursor:pointer-->
+            <div class="title">
+                <span class="tit1">매트리스</span>
+                <span class="tit2">신혼의 행복, 하이브리드 테크Ⅲ</span>
+            </div>
+
+            <div class="info">체형 밸런스와 흔들림을 받쳐주는 매트리스</div>
+
+            <div class="hover">
+                <div class="btns"><!--flex-->
+                    <a href="" class="plus">제품보러가기</a>
+                    <a href="" class="heart">관심상품등록</a>
+                </div><!--btns-->
+            </div><!--hover-->
+            <!--가상요소로 라인 넣기-->
+        </li>
+
+        <li><!--cursor:pointer-->
+            <div class="title">
+                <span class="tit1">리클라이너</span>
+                <span class="tit2">트렌디하고 슬림한 매력, 아우라</span>
+            </div>
+
+            <div class="info">트렌디하고 슬림한 디자인이 특징인 1인용 리클라이너</div>
+
+            <div class="hover">
+                <div class="btns"><!--flex-->
+                    <a href="" class="plus">제품보러가기</a>
+                    <a href="" class="heart">관심상품등록</a>
+                </div><!--btns-->
+            </div><!--hover-->
+            <!--가상요소로 라인 넣기-->
+        </li>
+
+        <li><!--cursor:pointer-->
+            <div class="title">
+                <span class="tit1">테이블</span>
+                <span class="tit2">어디에나 어울리는 클래식 테이블</span>
+            </div>
+
+            <div class="info">쉽게 움직이고 어디에 놓아두어도 잘 어울리는 Ellipse</div>
+
+            <div class="hover">
+                <div class="btns"><!--flex-->
+                    <a href="" class="plus">제품보러가기</a>
+                    <a href="" class="heart">관심상품등록</a>
+                </div><!--btns-->
+            </div><!--hover-->
+            <!--가상요소로 라인 넣기-->
+        </li>
+    </ul>
+</section><!--page1-->
+
+<!--세번째 페이지-->
+<section id="page2">
+	<div class="inner">
+		<h2 class="title">ACE COLLECTION</h2>
+		<div class="subslider1">
+			<div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img"><img src="images/col1.jpg" alt="콜렉션1"></div>
+                        <div class="text">
+                            <ul>
+                                <li class="tag">
+                                    <span>#룸세트</span>
+                                    <span>#카페인테리어</span>
+                                    <span>#디자인소파</span>
+                                </li>
+                                <li class="tit">VENATO-S II</li>
+                                <li class="desc">호텔라운지, 카페 같은 홈룸세트의 완성</li>
+                            </ul>
+                            <a href="" class="btn_more">VIEW MORE</a>
+                        </div><!--text-->
+                    </div><!--swiper-slide-->
+
+                    <div class="swiper-slide">
+                        <div class="img"><img src="images/col2.jpg" alt="콜렉션2"></div>
+                        <div class="text">
+                            <ul>
+                                <li class="tag">
+                                    <span>#원목가구</span>
+                                    <span>#LED조명침대</span>
+                                    <span>#여행컨셉</span>
+                                </li>
+                                <li class="tit">ARNO-III</li>
+                                <li class="desc">백조의 유려한 날개형상을 모티브로 디자인된 은은한 컨셉의 침대</li>
+                            </ul>
+                            <a href="" class="btn_more">VIEW MORE</a>
+                        </div><!--text-->
+                    </div><!--swiper-slide-->
+
+                    <div class="swiper-slide">
+                        <div class="img"><img src="images/col3.jpg" alt="콜렉션3"></div>
+                        <div class="text">
+                            <ul>
+                                <li class="tag">
+                                    <span>#쿠션형소파</span>
+                                    <span>#디자인가구</span>
+                                    <span>#테라스템</span>
+                                </li>
+                                <li class="tit">ERBA</li>
+                                <li class="desc">부클레 원단의 밝고 산뜻한 오렌지 컬러와 깊이감이 느껴지는 브라운 원목의 조화</li>
+                            </ul>
+                            <a href="" class="btn_more">VIEW MORE</a>
+                        </div><!--text-->
+                    </div><!--swiper-slide-->
+
+                    <div class="swiper-slide">
+                        <div class="img"><img src="images/col4.jpg" alt="콜렉션4"></div>
+                        <div class="text">
+                            <ul>
+                                <li class="tag">
+                                    <span>#쿠션형소파</span>
+                                    <span>#디자인가구</span>
+                                    <span>#테라스템</span>
+                                </li>
+                                <li class="tit">ERBA</li>
+                                <li class="desc">부클레 원단의 밝고 산뜻한 오렌지 컬러와 깊이감이 느껴지는 브라운 원목의 조화</li>
+                            </ul>
+                            <a href="" class="btn_more">VIEW MORE</a>
+                        </div><!--text-->
+                    </div><!--swiper-slide-->
+
+                    <div class="swiper-slide">
+                        <div class="img"><img src="images/col5.jpg" alt="콜렉션5"></div>
+                        <div class="text">
+                            <ul>
+                                <li class="tag">
+                                    <span>#쿠션형소파</span>
+                                    <span>#디자인가구</span>
+                                    <span>#테라스템</span>
+                                </li>
+                                <li class="tit">ERBA</li>
+                                <li class="desc">부클레 원단의 밝고 산뜻한 오렌지 컬러와 깊이감이 느껴지는 브라운 원목의 조화</li>
+                            </ul>
+                            <a href="" class="btn_more">VIEW MORE</a>
+                        </div><!--text-->
+                    </div><!--swiper-slide-->
+                </div>
+
+
+                <div class="swiper-scrollbar"></div>
+              </div>
+		</div><!--mySwiper2-->
+	</div>
+</section><!--page2-->
+
+<!--네번째 페이지-->
+<section id="page3"><!--flex, justify-content: center, align-items: center-->
+    <div class="inner"><!--max-width 1440px, flex, align-items: center, height 60vh-->
+        <h2 class="title">SERVICE<span>&nbsp;고객센터 1599-7121</span><span>&nbsp;A/S 문의 080-735-7123</span></h2>
+
+        <div class="content">
+            <ul>
+                <li>
+                    <span></span><span></span><span></span><span></span>
+                    <p>제품 매뉴얼</p><!--absolute-->
+                    <div class="btns"><!--flex-direction: column-->
+                        <a href="">제품 카탈로그<img src="images/btn_next1.png" alt="제품 카탈로그바로가기"></a>
+                        <a href="">사용설명서<img src="images/btn_next1.png" alt="사용설명서바로가기"></a>
+                    </div>
+                </li>
+                <li>
+                    <span></span><span></span><span></span><span></span>
+                    <p>A/S 및 상담</p><!--absolute-->
+                    <div class="btns"><!--flex-direction: column-->
+                        <a href="">원격상담신청<img src="images/btn_next1.png" alt="원격상담신청바로가기"></a>
+                        <a href="">제품 A/S 신청<img src="images/btn_next1.png" alt="제품 A/S 신청바로가기"></a>
+                    </div>
+                </li>
+                <li>
+                    <span></span><span></span><span></span><span></span>
+                    <p>자주묻는질문</p><!--absolute-->
+                    <div class="btns"><!--flex-direction: column-->
+                        <a href="">1:1문의 <img src="images/btn_next1.png" alt="1:1문의"></a>
+                        <a href="">유형 검색<img src="images/btn_next1.png" alt="유형검색바로가기"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div><!--max-width-->
+</section><!--page3-->
+
+<footer id="footer">
+    <div class="inner"><!--flex-->
+        <div class="left">
+            <div class="ft_logo"><h3><a href=""><img src="images/logo2.png" alt="하단로고"></a></h3></div>
+
+            <div class="info">
+                <p>(주)에이스침대 / 사업자등록번호 : 129-81-02666</p>
+                <p>본사 : 경기도 성남시 중원구 사기막골로 105번길 42(상대원동) <br>서울영업본부 : 서울특별시 강남구 도산대로 218 / FAX : 02-544-8788</p>
+                <p>COPYRIGHT (C) ACE BED CORPORATION ALL RIGHTS RESERVED</p>
+            </div><!--info-->
+        </div><!--left-->
+        
+        <div class="right">
+            <div class="ft_menu">
+                <ul>
+                    <li><a href="">개인정보처리방침</a></li>
+                    <li><a href="">고객지원</a></li>
+                    <li><a href="">사이트맵</a></li>
+                </ul>
+            </div><!--ft_menu-->
+
+            <div class="sns">
+                <ul>
+                    <li><a href=""><img src="images/icon_gg.png" alt="구글플레이"></a></li>
+                    <li><a href=""><img src="images/icon_ap.png" alt="앱스토어"></a></li>
+                    <li><a href=""><img src="images/icon_yt.png" alt="유튜브"></a></li>
+                    <li><a href=""><img src="images/icon_it.png" alt="인스타"></a></li>
+                </ul>
+            </div><!--sns-->
+        </div><!--right-->
+    </div><!--inner-->
+</footer>
+</div><!--wrap-->
+</body>
+</html>
